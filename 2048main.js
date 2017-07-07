@@ -3,3 +3,4 @@
  */
 var board = new Array();
 var score = 0;
+var test = 0;
