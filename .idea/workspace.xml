@@ -4,6 +4,7 @@
     <list default="true" id="a5e66ddd-b4f4-49c9-b6e7-18c2c326c7e3" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2048main.js" afterPath="$PROJECT_DIR$/2048main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/showanimation2048.js" afterPath="$PROJECT_DIR$/showanimation2048.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/support2048.js" afterPath="$PROJECT_DIR$/support2048.js" />
     </list>
     <ignored path="2048.iws" />
@@ -25,11 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.36802974">
-              <caret line="28" column="52" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="52" />
+            <state vertical-scroll-proportion="-14.538462">
+              <caret line="37" column="6" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -45,14 +46,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2048main.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="2048main.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/2048main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="242" column="33" selection-start-line="242" selection-start-column="33" selection-end-line="242" selection-end-column="33" />
+            <state vertical-scroll-proportion="0.49408984">
+              <caret line="269" column="0" selection-start-line="269" selection-start-column="0" selection-end-line="269" selection-end-column="0" />
               <folding>
                 <element signature="e#0#40#0" expanded="false" />
-                <element signature="n#!!block;n#moveUp#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -62,7 +62,7 @@
         <entry file="file://$PROJECT_DIR$/showanimation2048.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <caret line="26" column="20" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="20" />
               <folding>
                 <element signature="n#!!doc;n#showNumberWithAnimation#0" expanded="false" />
               </folding>
@@ -74,7 +74,7 @@
         <entry file="file://$PROJECT_DIR$/support2048.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="91" column="49" selection-start-line="91" selection-start-column="49" selection-end-line="91" selection-end-column="49" />
+              <caret line="123" column="21" selection-start-line="123" selection-start-column="21" selection-end-line="123" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -106,8 +106,8 @@
         <option value="$PROJECT_DIR$/test.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/2048.css" />
-        <option value="$PROJECT_DIR$/showanimation2048.js" />
         <option value="$PROJECT_DIR$/support2048.js" />
+        <option value="$PROJECT_DIR$/showanimation2048.js" />
         <option value="$PROJECT_DIR$/2048main.js" />
       </list>
     </option>
@@ -276,7 +276,13 @@
       <option name="project" value="LOCAL" />
       <updated>1499676768189</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="上下左右移动结束">
+      <created>1499679807838</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1499679807838</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -319,7 +325,8 @@
     <MESSAGE value="test" />
     <MESSAGE value="游戏架构完成，开始游戏逻辑" />
     <MESSAGE value="左移完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="左移完成" />
+    <MESSAGE value="上下左右移动结束" />
+    <option name="LAST_COMMIT_MESSAGE" value="上下左右移动结束" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -348,7 +355,6 @@
           <caret line="55" column="48" selection-start-line="55" selection-start-column="48" selection-end-line="55" selection-end-column="48" />
           <folding>
             <element signature="e#0#40#0" expanded="false" />
-            <element signature="n#!!block;n#moveUp#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -383,7 +389,6 @@
           <caret line="55" column="48" selection-start-line="55" selection-start-column="48" selection-end-line="55" selection-end-column="48" />
           <folding>
             <element signature="e#0#40#0" expanded="false" />
-            <element signature="n#!!block;n#moveUp#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -418,7 +423,6 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#40#0" expanded="false" />
-            <element signature="n#!!block;n#moveUp#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -445,7 +449,6 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#40#0" expanded="false" />
-            <element signature="n#!!block;n#moveUp#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -476,7 +479,7 @@
     <entry file="file://$PROJECT_DIR$/showanimation2048.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <caret line="26" column="20" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="20" />
           <folding>
             <element signature="n#!!doc;n#showNumberWithAnimation#0" expanded="false" />
           </folding>
@@ -486,27 +489,26 @@
     <entry file="file://$PROJECT_DIR$/support2048.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="91" column="49" selection-start-line="91" selection-start-column="49" selection-end-line="91" selection-end-column="49" />
+          <caret line="123" column="21" selection-start-line="123" selection-start-column="21" selection-end-line="123" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.538462">
+          <caret line="37" column="6" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/2048main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="242" column="33" selection-start-line="242" selection-start-column="33" selection-end-line="242" selection-end-column="33" />
+        <state vertical-scroll-proportion="0.49408984">
+          <caret line="269" column="0" selection-start-line="269" selection-start-column="0" selection-end-line="269" selection-end-column="0" />
           <folding>
             <element signature="e#0#40#0" expanded="false" />
-            <element signature="n#!!block;n#moveUp#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36802974">
-          <caret line="28" column="52" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
